@@ -1,0 +1,44 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    overflow: hidden;
+    width: 100%;
+}
+
+img {
+    height: 100vh;
+    width: 100vw;
+}
+
+.styled-checkbox::before {
+    content: "\2713";
+    font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+    font-size: 1.3em;
+}
+
+div {
+    margin: 10px;
+}
+
+svg {
+    fill: greenyellow;
+    stroke: greenyellow;
+    stroke-width: 0.85px;
+    width: 50vw;
+    height: 25vh;
+    position: absolute;
+    background-color: #714c0aa8;
+    color: greenyellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5vw;
+}
+
+path {
+    fill: greenyellow;
+}
